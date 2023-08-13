@@ -30,7 +30,7 @@
           }
       },
       "edit-link": {
-        "base": "https://github.com/OKHand-zy/demo-build-and-publish-gitbook/edit/main/",
+        "base": "https://github.com/OKHand-zy/AutoCatch_info-book/edit/main/",
         "label": "Edit This Page"
       },
       "ga": {
