@@ -30,8 +30,8 @@
           }
       },
       "edit-link": {
-        "base": "",
-        "label": ""
+        "base": "https://github.com/OKHand-zy/demo-build-and-publish-gitbook/edit/main/",
+        "label": "Edit This Page"
       },
       "ga": {
         "token": ""
