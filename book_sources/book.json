@@ -1,5 +1,5 @@
 {
-    "plugins": [  "anchor-navigation-ex", "edit-link", "copy-code-button", "theme-comscore", "ga" ],
+    "plugins": [  "anchor-navigation-ex", "copy-code-button", "theme-comscore", "ga" ],
     "pluginsConfig": {
       "fontSettings": {
         "theme": "night",
