@@ -29,10 +29,6 @@
               "level3Icon": "fa fa-hand-o-right"
           }
       },
-      "edit-link": {
-        "base": "https://github.com/OKHand-zy/AutoCatch_info-book/edit/main/",
-        "label": "Edit This Page"
-      },
       "ga": {
         "token": ""
       }
