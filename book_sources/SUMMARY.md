@@ -1,5 +1,6 @@
 # Summary
 
-* [Introduction](README.md)
-* [第一章](./articles/chapter-01.md)
-* [第二章](./articles/chapter-02.md)
+* [Introduction](Introduction.md)
+* [BMC](./articles/BMC.md)
+* [Bios](./articles/Bios.md)
+* [Connect port](./articles/Connect-port.md)
