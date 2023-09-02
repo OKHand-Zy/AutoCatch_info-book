@@ -1,6 +1,7 @@
 # Summary
 
-* [Introduction](Introduction.md)
-* [BMC](./articles/BMC.md)
+* [Introduction](./Introduction.md)
 * [Bios](./articles/Bios.md)
+* [BMC&IPMI](./articles/BMC&IPMI.md)
 * [Connect port](./articles/Connect-port.md)
+* [How to capture data and analyze](./articles/application.md)
