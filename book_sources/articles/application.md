@@ -6,7 +6,7 @@
    - paramiko
    - (Option)linux：pexpect ,Windows：wexpect or Linux&Windows：subprocess
 
-## Dev
+## How to connect port ?
 1. SSH :
     ```python
     import paramiko
@@ -31,7 +31,7 @@
     telnet_connect.close()
     ```
 
-## suggestion
+## Suggest
 1. 每一個 server 或 bios 可能是設計上導致 decode bytes to str ,用的 decode 編碼都不相同。
 2. 可以透過截取出來的 raw data 去分析一下這是要用哪一種編碼 decode (目前只遇過 utf-8 與 iso-8859-1)。
 3. 簡單來說 因為 **iso-8859-1** 屬於單字節 每個 8 bites , 而 **utf-8** 屬於多字節 每個 1-4 bytes 導致兩者不能兼容。(Reference 有解釋文章)
@@ -66,7 +66,8 @@
     例如我現在用 SOL 擷取出 raw data 是用 utf-8 編碼 decode , 你用 Telnet 去擷取出的 raw data 一樣用 utf-8 編碼 decode 出來。
 
 ## Exemple to catch info
-以選擇 Bios Page 為例
+選擇 Bios Page 為例
+![選擇 Bios Page](https://imgur.com/1PiqcZE.png)
 ### SOL :
 ```python
 page_name = 'you_went_find_page_name'

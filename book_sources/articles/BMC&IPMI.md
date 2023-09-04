@@ -1,4 +1,4 @@
-# Introduction BMC & IPMI
+# BMC & IPMI
 ### BMC ( Baseboard Management Controller )
 BMC 是在 Server Mother board 上一顆可以獨立運作的 SoC (System on Chip)，可以把它視為一個獨立的嵌入式系統在 Mother board 上面方便我們利用 IPMI 對 Mother board 上的主系統去監控及操控的動作。
 
@@ -10,6 +10,7 @@ BMC 是在 Server Mother board 上一顆可以獨立運作的 SoC (System on Chi
 
 ![BMC port 實體圖](https://www.ibm.com/support/pages/system/files/inline-images/BMC_ports_mapping_0.png)
 > BMC port 實體圖 (圖源：IBM Support web)
+
 ---
 
 ### IPMI（Intelligent Platform Management Interface）
