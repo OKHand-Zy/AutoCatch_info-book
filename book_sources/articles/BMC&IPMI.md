@@ -8,9 +8,6 @@ BMC 是在 Server Mother board 上一顆可以獨立運作的 SoC (System on Chi
 ![BMC經典架構](https://pic2.zhimg.com/80/v2-cd4d230e9825febdfed66afd34aecd6d_1440w.webp)
 > BMC 經典架構 (圖源：嵌入式操作系统那些事儿)
 
-![BMC port 實體圖](https://www.ibm.com/support/pages/system/files/inline-images/BMC_ports_mapping_0.png)
-> BMC port 實體圖 (圖源：IBM Support web)
-
 ---
 
 ### IPMI（Intelligent Platform Management Interface）
