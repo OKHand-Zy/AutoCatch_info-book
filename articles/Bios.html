@@ -1,0 +1,318 @@
+
+<!DOCTYPE HTML>
+<html lang="" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>Bios · GitBook</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.3">
+        
+        
+        
+    
+    <link rel="stylesheet" href="../gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-anchor-navigation-ex/style/plugin.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-search/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-theme-comscore/test.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="BMC&IPMI.html" />
+    
+    
+    <link rel="prev" href="../" />
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="Type to search" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="../">
+            
+                <a href="../">
+            
+                    
+                    Introduction
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter active" data-level="1.2" data-path="Bios.html">
+            
+                <a href="Bios.html">
+            
+                    
+                    Bios
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3" data-path="BMC&IPMI.html">
+            
+                <a href="BMC&IPMI.html">
+            
+                    
+                    BMC&IPMI
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4" data-path="Connect-port.html">
+            
+                <a href="Connect-port.html">
+            
+                    
+                    Connect port
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5" data-path="application.html">
+            
+                <a href="application.html">
+            
+                    
+                    How to capture data and analyze
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            Published with GitBook
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href=".." >Bios</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <div id="anchor-navigation-ex-navbar"><i class="fa fa-navicon"></i><ul><li><span class="title-icon "></span><a href="#bios"><b></b>BIOS</a></li><ul><li><span class="title-icon "></span><a href="#server-&#x958B;&#x6A5F;&#x6642;&#x7684;&#x904B;&#x4F5C;&#xFF1A;"><b></b>Server &#x958B;&#x6A5F;&#x6642;&#x7684;&#x904B;&#x4F5C;&#xFF1A;</a></li><ul><li><span class="title-icon "></span><a href="#&#x52A0;&#x96FB;&#x81EA;&#x6AA2;"><b></b>&#x52A0;&#x96FB;&#x81EA;&#x6AA2;</a></li><li><span class="title-icon "></span><a href="#&#x57FA;&#x672C;&#x8F38;&#x5165;&#x8F38;&#x51FA;&#x7CFB;&#x7D71;bios&#x5982;&#x4F55;&#x5DE5;&#x4F5C;&#xFF1F;"><b></b>&#x57FA;&#x672C;&#x8F38;&#x5165;/&#x8F38;&#x51FA;&#x7CFB;&#x7D71;(BIOS)&#x5982;&#x4F55;&#x5DE5;&#x4F5C;&#xFF1F;</a></li></ul><li><span class="title-icon "></span><a href="#reference&#xFF1A;"><b></b>Reference&#xFF1A;</a></li></ul></ul></div><a href="#bios" id="anchorNavigationExGoTop"><i class="fa fa-arrow-up"></i></a><h1 id="bios"><a name="bios" class="anchor-navigation-ex-anchor" href="#bios"><i class="fa fa-link" aria-hidden="true"></i></a>BIOS</h1>
+<p>BIOS&#xFF08;&#x82F1;&#x6587;&#xFF1A;Basic Input/Output System&#xFF09;&#xFF0C;&#x5373;&#x57FA;&#x672C;&#x8F38;&#x5165;&#x8F38;&#x51FA;&#x7CFB;&#x7D71;&#xFF0C;&#x4EA6;&#x7A31;&#x70BA;ROM BIOS&#x3001;System BIOS&#x3001;PC BIOS&#xFF0C;&#x662F;&#x5728;&#x901A;&#x96FB;&#x555F;&#x52D5;&#x968E;&#x6BB5;&#x57F7;&#x884C;&#x786C;&#x9AD4;&#x521D;&#x59CB;&#x5316;&#xFF0C;&#x4EE5;&#x53CA;&#x70BA;&#x4F5C;&#x696D;&#x7CFB;&#x7D71;&#x63D0;&#x4F9B;&#x904B;&#x884C;&#x6642;&#x670D;&#x52D9;&#x7684;&#x97CC;&#x9AD4;&#x3002;</p>
+<h2 id="server-&#x958B;&#x6A5F;&#x6642;&#x7684;&#x904B;&#x4F5C;&#xFF1A;"><a name="server-&#x958B;&#x6A5F;&#x6642;&#x7684;&#x904B;&#x4F5C;&#xFF1A;" class="anchor-navigation-ex-anchor" href="#server-&#x958B;&#x6A5F;&#x6642;&#x7684;&#x904B;&#x4F5C;&#xFF1A;"><i class="fa fa-link" aria-hidden="true"></i></a>Server &#x958B;&#x6A5F;&#x6642;&#x7684;&#x904B;&#x4F5C;&#xFF1A;</h2>
+<p>&#x7C21;&#x55AE;&#x4F86;&#x8AAA;&#x5C31;&#x662F;&#x6703;&#x5728; Server &#x901A;&#x96FB;&#x5F8C;&#x555F;&#x52D5;&#x6642;&#xFF0C;&#x5148;&#x8F09;&#x5165; BIOS &#x4E26;&#x8F09;&#x5165;&#x5C0D;&#x5E95;&#x5C64;&#x7684;&#x57FA;&#x790E;&#x8A2D;&#x7F6E;&#x8207;&#x63A7;&#x5236;&#xFF0C;&#x4E4B;&#x5F8C;&#x9032;&#x884C;&#x52A0;&#x96FB;&#x81EA;&#x6211;&#x6AA2;&#x6E2C;&#x968E;&#x6BB5;(POST)&#xFF0C;&#x5728;&#x9019;&#x968E;&#x6BB5;&#x6703;&#x6AA2;&#x67E5;&#x60A8;&#x7684;&#x6240;&#x6709;&#x786C;&#x9AD4;&#x9032;&#x884C;&#x8B58;&#x5225;,&#x7CFB;&#x7D71;&#x6E2C;&#x8A66;,&#x53CA;&#x521D;&#x59CB;&#x5316;&#x8A2D;&#x5B9A;&#x5404;&#x786C;&#x9AD4;&#x88DD;&#x7F6E;&#x7B49;...&#xFF0C;&#x4EE5;&#x78BA;&#x4FDD;&#x5176;&#x6B63;&#x5E38;&#x5DE5;&#x4F5C;&#x52A0;&#x8F09;&#x4F5C;&#x696D;&#x7CFB;&#x7D71;&#x4E26;&#x63D0;&#x4F9B;&#x904B;&#x884C;&#x6642;&#x670D;&#x52D9;&#xFF0C;&#x4E4B;&#x5F8C;&#x624D;&#x6703;&#x4F9D; Boot order &#x8A2D;&#x5B9A;&#x9806;&#x5E8F;&#x624D;&#x6703;&#x9032;&#x5230;&#x6211;&#x5011;&#x7684;&#x4F5C;&#x696D;&#x7CFB;&#x7D71;&#x3002;&#x6211;&#x5011;&#x53EF;&#x4EE5;&#x5728; POST&#x968E;&#x6BB5; &#x524D;&#x9032;&#x5165; Bios &#x8A2D;&#x5B9A;&#x9032;&#x884C;&#x4FEE;&#x6539;&#x6211;&#x5011;&#x8981;&#x5C0D;&#x786C;&#x9AD4;&#x6216; Boot order &#x9806;&#x5E8F;&#x4E0A;&#x7684;&#x8A2D;&#x5B9A;&#x3002;</p>
+<p><img src="https://linux.vbird.org/linux_basic/centos7/0510osloader//osloader-flow-initramfs.jpg" alt="BIOS_Boot&#x2014;&#x6D41;&#x7A0B;"></p>
+<blockquote>
+<p>BIOS &#x958B;&#x6A5F;&#x6D41;&#x7A0B; (&#x5716;&#x6E90;&#xFF1A;&#x9CE5;&#x54E5;&#x90E8;&#x843D;&#x683C;)</p>
+</blockquote>
+<h3 id="&#x52A0;&#x96FB;&#x81EA;&#x6AA2;"><a name="&#x52A0;&#x96FB;&#x81EA;&#x6AA2;" class="anchor-navigation-ex-anchor" href="#&#x52A0;&#x96FB;&#x81EA;&#x6AA2;"><i class="fa fa-link" aria-hidden="true"></i></a>&#x52A0;&#x96FB;&#x81EA;&#x6AA2;</h3>
+<p>&#x52A0;&#x96FB;&#x81EA;&#x6AA2;&#x53C8;&#x7A31;&#x70BA;&#x555F;&#x52D5;&#x81EA;&#x6211;&#x6AA2;&#x6E2C;&#xFF08;&#x82F1;&#x8A9E;&#xFF1A;Power-On Self-Test&#xFF1B;POST&#xFF09;&#xFF0C;&#x662F;&#x8A08;&#x7B97;&#x6A5F;BIOS&#x7684;&#x4E00;&#x500B;&#x529F;&#x80FD;&#xFF0C;&#x5728;&#x555F;&#x52D5;&#x6642;&#x6703;&#x57F7;&#x884C;&#xFF0C;&#x91DD;&#x5C0D;&#x8A08;&#x7B97;&#x6A5F;&#x786C;&#x9AD4;&#x5982;CPU&#x3001;&#x4E3B;&#x6A5F;&#x677F;&#x3001;&#x8A18;&#x61B6;&#x9AD4;&#x7B49;&#x9032;&#x884C;&#x6AA2;&#x6E2C;&#xFF0C;&#x7D50;&#x679C;&#x6703;&#x986F;&#x793A;&#x5728;&#x87A2;&#x5E55;&#x4E0A;&#x3002;</p>
+<h3 id="&#x57FA;&#x672C;&#x8F38;&#x5165;&#x8F38;&#x51FA;&#x7CFB;&#x7D71;bios&#x5982;&#x4F55;&#x5DE5;&#x4F5C;&#xFF1F;"><a name="&#x57FA;&#x672C;&#x8F38;&#x5165;&#x8F38;&#x51FA;&#x7CFB;&#x7D71;bios&#x5982;&#x4F55;&#x5DE5;&#x4F5C;&#xFF1F;" class="anchor-navigation-ex-anchor" href="#&#x57FA;&#x672C;&#x8F38;&#x5165;&#x8F38;&#x51FA;&#x7CFB;&#x7D71;bios&#x5982;&#x4F55;&#x5DE5;&#x4F5C;&#xFF1F;"><i class="fa fa-link" aria-hidden="true"></i></a>&#x57FA;&#x672C;&#x8F38;&#x5165;/&#x8F38;&#x51FA;&#x7CFB;&#x7D71;(BIOS)&#x5982;&#x4F55;&#x5DE5;&#x4F5C;&#xFF1F;</h3>
+<p>BIOS &#x662F;&#x60A8;&#x555F;&#x52D5;&#x96FB;&#x8166;&#x6642;&#x904B;&#x884C;&#x7684;&#x7B2C;&#x4E00;&#x500B;&#x8EDF;&#x9AD4;&#x7A0B;&#x5F0F;&#x3002;&#x7576;&#x60A8;&#x6253;&#x958B;&#x96FB;&#x8166;&#x6642;&#xFF0C;BIOS &#x6703;&#x9996;&#x5148;&#x6E2C;&#x8A66;&#x786C;&#x9AD4;&#x4EE5;&#x78BA;&#x4FDD;&#x4E00;&#x5207;&#x6B63;&#x5E38;&#x3002;&#x63A5;&#x4E0B;&#x4F86;&#xFF0C;&#x5B83;&#x521D;&#x59CB;&#x5316;&#x4E26;&#x8B58;&#x5225;&#x7CFB;&#x7D71;&#x7684;&#x6240;&#x6709;&#x786C;&#x9AD4;&#x3002;&#x7136;&#x5F8C;&#xFF0C;&#x5B83;&#x5C07;&#x4F5C;&#x696D;&#x7CFB;&#x7D71;&#x52A0;&#x8F09;&#x5230;&#x5FEB;&#x53D6;&#x4E2D;&#x4E26;&#x624B;&#x52D5;&#x63A7;&#x5236;&#x5B83;&#x3002;&#x6700;&#x5F8C;&#xFF0C;BIOS &#x5728;&#x96FB;&#x8166;&#x904B;&#x884C;&#x6642;&#x70BA;&#x4F5C;&#x696D;&#x7CFB;&#x7D71;&#x548C;&#x61C9;&#x7528;&#x7A0B;&#x5F0F;&#x63D0;&#x4F9B;&#x5404;&#x7A2E;&#x53EF;&#x7528;&#x7684;&#x670D;&#x52D9;&#x3002;&#x9019;&#x4E9B;&#x670D;&#x52D9;&#x5305;&#x62EC;&#x96FB;&#x6E90;&#x7BA1;&#x7406;&#x3001;&#x786C;&#x9AD4;&#x914D;&#x7F6E;&#x548C;&#x555F;&#x52D5;&#x7BA1;&#x7406;&#x3002;</p>
+<h2 id="reference&#xFF1A;"><a name="reference&#xFF1A;" class="anchor-navigation-ex-anchor" href="#reference&#xFF1A;"><i class="fa fa-link" aria-hidden="true"></i></a>Reference&#xFF1A;</h2>
+<p><a href="https://tw.easeus.com/diskmanager/what-is-bios.html" target="_blank">&#x4EC0;&#x9EBC;&#x662F; BIOS ? &#x807D;&#x8D77;&#x4F86;&#x597D;&#x96E3;&#x61C2; ? &#x672C;&#x7BC7;&#x6587;&#x7AE0;&#x7528;&#x6700;&#x767D;&#x8A71;&#x7684;&#x65B9;&#x5F0F;&#x544A;&#x8A34;&#x60A8;</a></p>
+<p><a href="https://zh.wikipedia.org/zh-tw/%E5%8A%A0%E7%94%B5%E8%87%AA%E6%A3%80" target="_blank">&#x52A0;&#x96FB;&#x81EA;&#x6AA2;</a></p>
+<p><a href="https://ithelp.ithome.com.tw/articles/10308633" target="_blank">&#x96FB;&#x8166;&#x600E;&#x9EBC;&#x958B;&#x6A5F;&#x7684;?</a></p>
+<p><a href="https://linux.vbird.org/linux_basic/centos7/0510osloader.php" target="_blank">&#x958B;&#x6A5F;&#x6D41;&#x7A0B;&#x3001;&#x6A21;&#x7D44;&#x7BA1;&#x7406;&#x8207; Loader  - &#x9CE5;&#x54E5;</a></p>
+
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="../" class="navigation navigation-prev " aria-label="Previous page: Introduction">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="BMC&IPMI.html" class="navigation navigation-next " aria-label="Next page: BMC&IPMI">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"Bios","level":"1.2","depth":1,"next":{"title":"BMC&IPMI","level":"1.3","depth":1,"path":"articles/BMC&IPMI.md","ref":"./articles/BMC&IPMI.md","articles":[]},"previous":{"title":"Introduction","level":"1.1","depth":1,"path":"README.md","ref":"README.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["anchor-navigation-ex","copy-code-button","theme-comscore","ga"],"pluginsConfig":{"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"fontsettings":{"theme":"white","family":"sans","size":2},"fontSettings":{"theme":"night","family":"sans"},"highlight":{},"anchor-navigation-ex":{"associatedWithSummary":false,"float":{"floatIcon":"fa fa-navicon","level1Icon":"fa fa-hand-o-right","level2Icon":"fa fa-hand-o-right","level3Icon":"fa fa-hand-o-right","showLevelIcon":false},"mode":"float","multipleH1":false,"pageTop":{"level1Icon":"fa fa-hand-o-right","level2Icon":"fa fa-hand-o-right","level3Icon":"fa fa-hand-o-right","showLevelIcon":false},"printLog":false,"showGoTop":true,"showLevel":false},"theme-comscore":{},"copy-code-button":{},"ga":{"configuration":"auto","token":""},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"articles/Bios.md","mtime":"2023-09-04T06:29:42.525Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2023-09-04T06:30:11.553Z"},"basePath":"..","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="../gitbook/gitbook.js"></script>
+    <script src="../gitbook/theme.js"></script>
+    
+        
+        <script src="../gitbook/gitbook-plugin-copy-code-button/toggle.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-ga/plugin.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-search/search-engine.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-search/search.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-sharing/buttons.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-theme-comscore/test.js"></script>
+        
+    
+
+    </body>
+</html>
+

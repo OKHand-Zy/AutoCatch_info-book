@@ -1,0 +1,327 @@
+
+<!DOCTYPE HTML>
+<html lang="" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>BMC&IPMI · GitBook</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.3">
+        
+        
+        
+    
+    <link rel="stylesheet" href="../gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-anchor-navigation-ex/style/plugin.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-search/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-theme-comscore/test.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="Connect-port.html" />
+    
+    
+    <link rel="prev" href="Bios.html" />
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="Type to search" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="../">
+            
+                <a href="../">
+            
+                    
+                    Introduction
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" data-path="Bios.html">
+            
+                <a href="Bios.html">
+            
+                    
+                    Bios
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter active" data-level="1.3" data-path="BMC&IPMI.html">
+            
+                <a href="BMC&IPMI.html">
+            
+                    
+                    BMC&IPMI
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4" data-path="Connect-port.html">
+            
+                <a href="Connect-port.html">
+            
+                    
+                    Connect port
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5" data-path="application.html">
+            
+                <a href="application.html">
+            
+                    
+                    How to capture data and analyze
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            Published with GitBook
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href=".." >BMC&IPMI</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <div id="anchor-navigation-ex-navbar"><i class="fa fa-navicon"></i><ul><li><span class="title-icon "></span><a href="#bmc--ipmi"><b></b>BMC &amp; IPMI</a></li><ul><ul><li><span class="title-icon "></span><a href="#bmc--baseboard-management-controller-"><b></b>BMC ( Baseboard Management Controller )</a></li><li><span class="title-icon "></span><a href="#ipmi&#xFF08;intelligent-platform-management-interface&#xFF09;"><b></b>IPMI&#xFF08;Intelligent Platform Management Interface&#xFF09;</a></li></ul><li><span class="title-icon "></span><a href="#reference&#xFF1A;"><b></b>Reference&#xFF1A;</a></li></ul></ul></div><a href="#bmc--ipmi" id="anchorNavigationExGoTop"><i class="fa fa-arrow-up"></i></a><h1 id="bmc--ipmi"><a name="bmc--ipmi" class="anchor-navigation-ex-anchor" href="#bmc--ipmi"><i class="fa fa-link" aria-hidden="true"></i></a>BMC &amp; IPMI</h1>
+<h3 id="bmc--baseboard-management-controller-"><a name="bmc--baseboard-management-controller-" class="anchor-navigation-ex-anchor" href="#bmc--baseboard-management-controller-"><i class="fa fa-link" aria-hidden="true"></i></a>BMC ( Baseboard Management Controller )</h3>
+<p>BMC &#x662F;&#x5728; Server Mother board &#x4E0A;&#x4E00;&#x9846;&#x53EF;&#x4EE5;&#x7368;&#x7ACB;&#x904B;&#x4F5C;&#x7684; SoC (System on Chip)&#xFF0C;&#x53EF;&#x4EE5;&#x628A;&#x5B83;&#x8996;&#x70BA;&#x4E00;&#x500B;&#x7368;&#x7ACB;&#x7684;&#x5D4C;&#x5165;&#x5F0F;&#x7CFB;&#x7D71;&#x5728; Mother board &#x4E0A;&#x9762;&#x65B9;&#x4FBF;&#x6211;&#x5011;&#x5229;&#x7528; IPMI &#x5C0D; Mother board &#x4E0A;&#x7684;&#x4E3B;&#x7CFB;&#x7D71;&#x53BB;&#x76E3;&#x63A7;&#x53CA;&#x64CD;&#x63A7;&#x7684;&#x52D5;&#x4F5C;&#x3002;</p>
+<p><img src="https://pic2.zhimg.com/80/v2-049ad9bd408399545018f6b655486359_1440w.webp" alt="BMC &#x67B6;&#x69CB;"></p>
+<blockquote>
+<p>BMC &#x67B6;&#x69CB; (&#x5716;&#x6E90;&#xFF1A;wiki BMC)</p>
+</blockquote>
+<p><img src="https://pic2.zhimg.com/80/v2-cd4d230e9825febdfed66afd34aecd6d_1440w.webp" alt="BMC&#x7D93;&#x5178;&#x67B6;&#x69CB;"></p>
+<blockquote>
+<p>BMC &#x7D93;&#x5178;&#x67B6;&#x69CB; (&#x5716;&#x6E90;&#xFF1A;&#x5D4C;&#x5165;&#x5F0F;&#x64CD;&#x4F5C;&#x7CFB;&#x7EDF;&#x90A3;&#x4E9B;&#x4E8B;&#x513F;)</p>
+</blockquote>
+<hr>
+<h3 id="ipmi&#xFF08;intelligent-platform-management-interface&#xFF09;"><a name="ipmi&#xFF08;intelligent-platform-management-interface&#xFF09;" class="anchor-navigation-ex-anchor" href="#ipmi&#xFF08;intelligent-platform-management-interface&#xFF09;"><i class="fa fa-link" aria-hidden="true"></i></a>IPMI&#xFF08;Intelligent Platform Management Interface&#xFF09;</h3>
+<p>&#x667A;&#x6167;&#x578B;&#x5E73;&#x53F0;&#x7BA1;&#x7406;&#x4ECB;&#x9762;&#xFF08;Intelligent Platform Management Interface&#xFF09;&#x80FD;&#x5920;&#x6A6B;&#x8DE8;&#x4E0D;&#x540C;&#x7684;&#x4F5C;&#x696D;&#x7CFB;&#x7D71;&#x3001;&#x97CC;&#x9AD4;&#x548C;&#x786C;&#x9AD4;&#x5E73;&#x53F0;&#xFF0C;&#x53EF;&#x4EE5;&#x667A;&#x6167;&#x578B;&#x7684;&#x76E3;&#x8996;&#x3001;&#x63A7;&#x5236;&#x548C;&#x81EA;&#x52D5;&#x56DE;&#x5831;&#x5927;&#x91CF;&#x4F3A;&#x670D;&#x5668;&#x7684;&#x904B;&#x4F5C;&#x72C0;&#x6CC1;&#xFF0C;&#x4EE5;&#x964D;&#x4F4E;&#x4F3A;&#x670D;&#x5668;&#x7CFB;&#x7D71;&#x6210;&#x672C;&#x3002;&#x76EE;&#x524D;&#x6BD4;&#x8F03;&#x901A;&#x7528;&#x7684;&#x7248;&#x672C;&#x70BA; <strong>IPMI v1.5</strong> &#x8207; <strong>IPMI v2.0</strong></p>
+<p><strong>IPMI</strong> &#x662F;&#x7368;&#x7ACB;&#x65BC;&#x4F5C;&#x696D;&#x7CFB;&#x7D71;&#x5916;&#x81EA;&#x884C;&#x904B;&#x4F5C;&#xFF0C;&#x4E26;&#x5BB9;&#x8A31;&#x7BA1;&#x7406;&#x8005;&#x5373;&#x4F7F;&#x5728;&#x7F3A;&#x5C11;&#x4F5C;&#x696D;&#x7CFB;&#x7D71;&#x6216;&#x7CFB;&#x7D71;&#x7BA1;&#x7406;&#x8EDF;&#x9AD4;&#x3001;&#x6216;&#x53D7;&#x76E3;&#x63A7;&#x7684;&#x7CFB;&#x7D71;&#x95DC;&#x6A5F;&#x4F46;&#x6709;&#x63A5;&#x96FB;&#x6E90;&#x7684;&#x60C5;&#x6CC1;&#x4E0B;&#x4ECD;&#x80FD;&#x9060;&#x7AEF;&#x7BA1;&#x7406;&#x7CFB;&#x7D71;&#x3002;
+<strong>IPMI</strong> &#x4E5F;&#x80FD;&#x5728;&#x4F5C;&#x696D;&#x7CFB;&#x7D71;&#x555F;&#x52D5;&#x5F8C;&#x6D3B;&#x52D5;&#xFF0C;&#x8207;&#x7CFB;&#x7D71;&#x7BA1;&#x7406;&#x529F;&#x80FD;&#x4E00;&#x4F75;&#x4F7F;&#x7528;&#x6642;&#x9084;&#x80FD;&#x63D0;&#x4F9B;&#x52A0;&#x5F37;&#x529F;&#x80FD;&#xFF0C;IPMI &#x53EA;&#x5B9A;&#x7FA9;&#x67B6;&#x69CB;&#x548C;&#x4ECB;&#x9762;&#x683C;&#x5F0F;&#x6210;&#x70BA;&#x6A19;&#x6E96;&#xFF0C;&#x8A73;&#x7D30;&#x5BE6;&#x4F5C;&#x53EF;&#x80FD;&#x6703;&#x6709;&#x6240;&#x4E0D;&#x540C;&#x3002;</p>
+<p>IPMI 1.5&#x7248;&#x548C;&#x4E4B;&#x5F8C;&#x7684;&#x7248;&#x672C;&#x80FD;&#x900F;&#x904E;&#x76F4;&#x63A5;<strong>&#x4E32;&#x63A5;&#x3001;&#x5340;&#x57DF;&#x7DB2;&#x8DEF;&#x3001;&#x6216;Serial over LAN</strong>&#x5230;&#x9060;&#x7AEF;&#x9001;&#x51FA;&#x8B66;&#x5831;&#xFF0C;&#x7CFB;&#x7D71;&#x7BA1;&#x7406;&#x54E1;&#x80FD;&#x4F7F;&#x7528; IPMI &#x8A0A;&#x606F;&#x53BB;&#x67E5;&#x8A62;&#x5E73;&#x53F0;&#x72C0;&#x614B;&#x3001;&#x6AA2;&#x8996;&#x786C;&#x9AD4;&#x7684;&#x65E5;&#x8A8C;(log)&#x3001;&#x6216;&#x900F;&#x904E;&#x76F8;&#x540C;&#x9023;&#x7DDA;&#x5F9E;&#x9060;&#x7AEF;&#x63A7;&#x5236;&#x53F0;&#x767C;&#x51FA;&#x5176;&#x4ED6;&#x8981;&#x6C42;&#xFF0C;&#x9019;&#x500B;&#x6A19;&#x6E96;&#x4E5F;&#x70BA;&#x7CFB;&#x7D71;&#x5B9A;&#x7FA9;&#x4E86;&#x4E00;&#x500B;&#x8B66;&#x5831;&#x6A5F;&#x5236;&#x9001;&#x51FA;&#x7C21;&#x55AE;&#x7DB2;&#x8DEF;&#x7BA1;&#x7406;&#x5354;&#x5B9A;(SNMP) &#x5E73;&#x53F0;&#x4E8B;&#x4EF6;&#x5708;&#x5957;(PET, Platform Event Trap)&#x3002;</p>
+<p><strong>IPMI 1.5&#xFF1A;</strong> &#x5141;&#x8A31; IPMI &#x7CFB;&#x7EDF;&#x901A;&#x904E;&#x4E32;&#x53E3;&#xFF0C;BMC &#x5C08;&#x7528;&#x7684;&#x5E26; internet port&#xFF0C;&#x6216;&#x8005;&#x8207; Mother board &#x5171;&#x4EAB;&#x7684; Intranet port&#xFF08;NC-SI&#xFF09;&#x8207;&#x9060;&#x7A0B;&#x7BA1;&#x7406;&#x7CFB;&#x7D71;&#x901A;&#x8A0A;&#x3002;</p>
+<p><strong>IPMI 2.0&#xFF1A;</strong> &#x589E;&#x52A0;&#x4E86;SOL&#xFF08;serial over LAN&#xFF09;&#x3001;&#x7FA4;&#x7EC4;&#x7BA1;&#x7406;&#x3001;&#x589E;&#x5F3A;&#x8EAB;&#x4EFD;&#x8A8D;&#x8B49;&#xFF08;RAKP+&#x3001;SHA-1&#x7B49;&#xFF09;&#x3001;&#x57FA;&#x65BC; OpenSSL/RCMP+ &#x7684;&#x5B89;&#x5168;&#x589E;&#x5F37;&#x7DB2;&#x8DEF;&#x63A5;&#x53E3;&#x3001;&#x786C;&#x9AD4;&#x65B9;&#x9762;&#x7684;&#x9632;&#x706B;&#x7246;&#x548C; VLAN &#x652F;&#x6301;&#x7B49;...&#x3002;&#x5176;&#x4E2D;&#xFF0C;SOL &#x652F;&#x6301;&#x5C07; BIOS &#x8F38;&#x51FA;&#x548C;&#x64CD;&#x4F5C;&#x7CFB;&#x7D71;&#x7D42;&#x7AEF;&#x91CD;&#x65B0;&#x5B9A;&#x5411;&#x5230;&#x8207; BMC &#x76F8;&#x9023;&#x7684; serial port&#xFF0C;&#x901A;&#x904E; IPMI &#x8207;&#x9060;&#x7A0B;&#x7CFB;&#x7EDF;&#x7BA1;&#x7406;&#x8EDF;&#x9AD4;&#x9023;&#x63A5;&#x3002;&#x4E26;&#x4E14; IPMI2.0 &#x517C;&#x5BB9;&#x7CFB;&#x7EDF;&#x901A;&#x5E38;&#x9084;&#x63D0;&#x4F9B; KVM over IP(&#x57FA;&#x65BC; IP &#x7684;&#x9060;&#x7A0B;&#x9375;&#x76E4;&#x6ED1;&#x9F20;&#x986F;&#x793A;&#x5668;&#x9023;&#x63A5;)&#x3001;&#x9060;&#x7A0B;&#x684C;&#x9762;&#x548C;&#x9801;&#x9762;&#x670D;&#x52D9;&#x5668;&#x7B49;&#x529F;&#x80FD;&#xFF0C;&#x96D6;&#x7136;&#x9019;&#x4E9B;&#x529F;&#x80FD;&#x4E26;&#x4E0D;&#x5C6C;&#x65BC; IPMI &#x5354;&#x8B70;&#x7684;&#x4E00;&#x90E8;&#x5206;&#x3002;</p>
+<h2 id="reference&#xFF1A;"><a name="reference&#xFF1A;" class="anchor-navigation-ex-anchor" href="#reference&#xFF1A;"><i class="fa fa-link" aria-hidden="true"></i></a>Reference&#xFF1A;</h2>
+<p><a href="https://zh.wikipedia.org/zh-tw/IPMI" target="_blank">IPMI - WIKI</a></p>
+<p><a href="https://zhuanlan.zhihu.com/p/566580261" target="_blank">&#x5D4C;&#x5165;&#x5F0F;&#x64CD;&#x4F5C;&#x7CFB;&#x7EDF;&#x90A3;&#x4E9B;&#x4E8B;&#x513F; - &#x77E5;&#x4E4E;</a></p>
+<p><a href="https://www.ibm.com/support/pages/how-configure-bmc-hmc-7063-cr2" target="_blank">How to configure the BMC on HMC 7063-CR2 - IBM</a></p>
+<p><a href="https://benjr.tw/11240" target="_blank">BMC / IPMI - benjr.tw</a></p>
+<p><a href="https://www.intel.com/content/dam/www/public/us/en/documents/specification-updates/ipmi-platform-mgt-fru-info-storage-def-v1-0-rev-1-3-spec-update.pdf" target="_blank">Platform Management FRU Information Storage Definition v1.0 - Intel</a></p>
+<p><a href="https://www.intel.com/content/dam/www/public/us/en/documents/product-briefs/ipmi-second-gen-interface-spec-v2-rev1-1.pdf" target="_blank">Intelligent Platform Management Interface Specification v2.0 rev. 1.1 - Intel</a></p>
+
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="Bios.html" class="navigation navigation-prev " aria-label="Previous page: Bios">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="Connect-port.html" class="navigation navigation-next " aria-label="Next page: Connect port">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"BMC&IPMI","level":"1.3","depth":1,"next":{"title":"Connect port","level":"1.4","depth":1,"path":"articles/Connect-port.md","ref":"./articles/Connect-port.md","articles":[]},"previous":{"title":"Bios","level":"1.2","depth":1,"path":"articles/Bios.md","ref":"./articles/Bios.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["anchor-navigation-ex","copy-code-button","theme-comscore","ga"],"pluginsConfig":{"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"fontsettings":{"theme":"white","family":"sans","size":2},"fontSettings":{"theme":"night","family":"sans"},"highlight":{},"anchor-navigation-ex":{"associatedWithSummary":false,"float":{"floatIcon":"fa fa-navicon","level1Icon":"fa fa-hand-o-right","level2Icon":"fa fa-hand-o-right","level3Icon":"fa fa-hand-o-right","showLevelIcon":false},"mode":"float","multipleH1":false,"pageTop":{"level1Icon":"fa fa-hand-o-right","level2Icon":"fa fa-hand-o-right","level3Icon":"fa fa-hand-o-right","showLevelIcon":false},"printLog":false,"showGoTop":true,"showLevel":false},"theme-comscore":{},"copy-code-button":{},"ga":{"configuration":"auto","token":""},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"articles/BMC&IPMI.md","mtime":"2023-09-04T06:29:42.525Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2023-09-04T06:30:11.553Z"},"basePath":"..","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="../gitbook/gitbook.js"></script>
+    <script src="../gitbook/theme.js"></script>
+    
+        
+        <script src="../gitbook/gitbook-plugin-copy-code-button/toggle.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-ga/plugin.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-search/search-engine.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-search/search.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-sharing/buttons.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-theme-comscore/test.js"></script>
+        
+    
+
+    </body>
+</html>
+
